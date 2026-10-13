@@ -1,0 +1,8 @@
+{ "show_message": true,
+    "title": "  YouTube Pro V59",
+    "content_url": "https://thefahad.in", 
+    "positive_btn": "Cancel",
+    "link": "https://thefahad.in", 
+    "positive_btn2": "Download Now", 
+    "link2": "https://thefahad.in",
+    "cancelable": false }
