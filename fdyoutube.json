@@ -1,8 +1,10 @@
-{ "show_message": true,
-    "title": "  YouTube Pro V59",
-    "content_url": "https://thefahad.in", 
-    "positive_btn": "Cancel",
-    "link": "https://thefahad.in", 
-    "positive_btn2": "Download Now", 
-    "link2": "https://thefahad.in",
-    "cancelable": false }
+{
+  "version_code": 2,
+  "version_name": "v2.0",
+  "title": "FD YouTube Update Available!",
+  "message": "A new version of FD YouTube is available.\n\nWhat's New in v2.0:\n• Fixed background playback\n• Clean UI & Ad-free experience\n• Faster video streaming & 4K support\n• Performance & stability improvements\n\nPlease update to enjoy the latest features!",
+  "update_url": "https://thefahad.in",
+  "btn_update_text": "Update Now",
+  "btn_cancel_text": "Later",
+  "cancelable": true
+}
