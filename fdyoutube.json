@@ -1,9 +1,9 @@
 {
   "version_name": "21.26.365",
+  "force_update": false,
   "title": "FD YouTube Update Available!",
-  "message": "A new version of FD YouTube is available.\n\nWhat's New in this update:\n• Fixed background playback\n• Clean UI & Ad-free experience\n• Faster video streaming & 4K support\n• Performance & stability improvements\n\nPlease update to enjoy the latest features!",
+  "message": "A new version of FD YouTube is available.\n\nWhat's New in this update:\n• Fixed background playback\n• Clean UI & Ad-free experience\n• Performance & stability boost",
   "update_url": "https://thefahad.in",
   "btn_update_text": "Update Now",
-  "btn_cancel_text": "Later",
-  "cancelable": true
+  "btn_cancel_text": "Later"
 }
