@@ -1,9 +1,23 @@
 {
-  "version_name": "3.2.7",
+  "version_name": "3.2.8",
   "force_update": false,
   "title": "Cinema VIP Update Available!",
   "message": "A new version of Cinema VIP is available.\n\nWhat's New in this update:\n• High-speed streaming servers\n• Clean UI & Ad-free experience\n• Performance & stability boost",
   "update_url": "https://thefahad.in",
   "btn_update_text": "Update Now",
-  "btn_cancel_text": "Later"
+  "btn_cancel_text": "Later",
+  "promotion": {
+    "title": "Follow me on Instagram",
+    "subtitle": "@fahad57978",
+    "qr_url": "https://instagram.com/fahad57978",
+    "share_url": "https://instagram.com/fahad57978",
+    "btn_text": "Follow on Instagram",
+    "invited_count": "Official Profile • @fahad57978",
+    "rules": [
+      "1. Follow @fahad57978 on Instagram for latest updates.",
+      "2. Get instant support & direct DM assistance.",
+      "3. Request movies, shows, and new app features.",
+      "4. Exclusive early access to upcoming mod releases."
+    ]
+  }
 }
