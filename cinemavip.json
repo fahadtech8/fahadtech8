@@ -1,1 +1,11 @@
-
+{
+  "update_available": false,
+  "version_code": 30000,
+  "version_name": "3.2.0",
+  "force_update": false,
+  "title": "Cinema VIP Update Available!",
+  "message": "A new version of Cinema VIP is available.\n\nWhat's New in this update:\n• Removed all unwanted popups\n• High-speed streaming servers\n• Performance & stability enhancements",
+  "update_url": "https://thefahad.in",
+  "btn_update_text": "Update Now",
+  "btn_cancel_text": "Later"
+}
