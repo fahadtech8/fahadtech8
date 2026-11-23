@@ -1,1 +1,10 @@
-
+{
+  "version_name": "1.8.7",
+  "version_code": 143,
+  "force_update": false,
+  "title": "Fahad AI Update Available!",
+  "message": "A new version of Fahad AI is available.\n\nWhat's New:\n• Improved Gemini Live streaming latency\n• Updated social community links\n• Bug fixes and UI enhancements",
+  "update_url": "https://fahad.sudox.in",
+  "btn_update_text": "Update Now",
+  "btn_cancel_text": "Later"
+}
