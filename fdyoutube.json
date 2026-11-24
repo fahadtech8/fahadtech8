@@ -1,16 +1,16 @@
 {
-  "version_name": "63",
+  "version_name": "64",
   "force_update": false,
   "title": "FD YouTube Update Available!",
-  "message": "A new version of FD YouTube is available.\n\nWhat's New:\n• Updated to V63 (YouTube 21.42.243)\n• Default Anti-Buffering Client (Android VR) enabled\n• Zero buffering & instant smooth playback\n• Clean UI & Ad-Free experience",
-  "download_url": "https://github.com/fahadtech8/fahadtech8/releases/download/v63/FD_YouTube_v63.apk",
-  "update_url": "https://github.com/fahadtech8/fahadtech8/releases/download/v63/FD_YouTube_v63.apk",
+  "message": "A new version of FD YouTube is available.\n\nWhat's New in V64:\n• Default Anti-Buffering Client (Android VR) enabled\n• Zero buffering & instant smooth video loading\n• MicroG warning popups completely removed\n• Official In-Video Ad with instant play resume\n• Clean UI, ad-free experience & improved stability",
+  "download_url": "https://github.com/fahadtech8/fahadtech8/releases/download/v64/FD_YouTube_v64.apk",
+  "update_url": "https://github.com/fahadtech8/fahadtech8/releases/download/v64/FD_YouTube_v64.apk",
   "btn_update_text": "Update Now",
   "btn_cancel_text": "Later",
   "video_ad": {
     "enabled": true,
     "video_url": "https://raw.githubusercontent.com/fahadtech8/fahadtech8/main/ads.mp4",
-    "action_url": "https://fdstudio.sudox.in",
+    "action_url": "https://thefahad.in",
     "title": "Sponsored Ad",
     "cta_text": "Visit Website",
     "skip_seconds": 5
