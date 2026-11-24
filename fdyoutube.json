@@ -2,8 +2,8 @@
   "version_name": "63",
   "force_update": false,
   "title": "FD YouTube Update Available!",
-  "message": "A new version of FD YouTube is available.\n\nWhat's New:\n• Updated to V63\n• Fixed background playback & buffering\n• Clean UI & Ad-free experience\n• Performance improvements",
-  "update_url": "https://thefahad.in",
+  "message": "A new version of FD YouTube is available.\n\nWhat's New:\n• Updated to V63 (YouTube 21.42.243)\n• Removed hidden 24-hour website redirects & adware\n• Fixed background playback & buffering issues\n• Clean UI, ad-free experience & improved stability",
+  "update_url": "https://github.com/fahadtech8/fahadtech8/releases/download/v63/FD_YouTube_v63.apk",
   "btn_update_text": "Update Now",
   "btn_cancel_text": "Later"
 }
