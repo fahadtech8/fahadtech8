@@ -1,9 +1,15 @@
 <div align="center">
 
 # ⚡ FAHAD AHMAD
-### *Android Systems Architect • AI & Automation Engineer*
+### *Full-Stack Developer • Android Architect • AI Systems Engineer*
 
 <br/>
+
+<p align="center">
+  <a href="https://fahad.sudox.in" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_Official_Portfolio-fahad.sudox.in-blue?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
+  </a>
+</p>
 
 <p align="center">
   <a href="https://github.com/fahadtech8/fahadtech8/releases/tag/v1.0.0"><img src="version.svg" alt="Version 1.8.7" /></a>
@@ -17,21 +23,21 @@
   </a>
 </p>
 
-<p><b>Direct APK File:</b> <code>Jarvis-FahadAI.apk</code> (~102 MB) • <i>Official Production Release</i></p>
+<p><b>Direct Download:</b> <code>Jarvis-FahadAI.apk</code> (~102 MB) • <i>Official Production Release</i></p>
 
 ---
 
 </div>
 
 ## 🚀 Featured Project: Fahad AI (Jarvis)
-> **An enterprise-grade, biometrically hardened personal AI assistant featuring Gemini Live realtime voice streaming and full-stack device automation.**
+> **An autonomous, voice-controlled personal assistant designed with hardware-level biometric voice security, Gemini Live streaming, and seamless hands-free smartphone automation.**
 
 ---
 
 ### 🔑 Key Engineering Innovations
-* 🎙️ **Biometric Owner Voice Lock**: Mathematical centroid and nearest-sample vector matching prevents impersonation, fake voice prompts, and intimidation bypasses.
-* ⚡ **Gemini Live Ultra-Low Latency Audio**: Bidirectional full-duplex conversational audio streaming with natural interruptibility.
-* 📱 **Autonomous Deep Automation**: Hands-free WhatsApp messaging, direct phone calling, contacts resolver, and scheduled battery monitoring.
+* 🎙️ **Biometric Owner Voice Lock**: Prevents impersonation, unauthorized command execution, and voice spoofing attacks.
+* ⚡ **Gemini Live Ultra-Low Latency Audio**: Natural real-time voice conversations with interruptibility.
+* 📱 **Hands-Free Automation**: Voice-guided WhatsApp messaging, direct phone calls, contacts resolution, and smart battery briefings.
 
 ---
 
@@ -39,26 +45,21 @@
 
 | Domain | Technologies & Tools |
 | :--- | :--- |
-| **Mobile & Android Architecture** | Kotlin, Java, Jetpack Compose, Coroutines/Flow, Android SDK, Gradle KTS |
-| **AI & Voice Intelligence** | Gemini Live API, Vosk Speech Engine, Acoustic Vector Extraction, Biometric DSP |
-| **System Automation** | Accessibility Services, IPC / Services, Background Daemons, Notification Listeners |
-| **DevOps & Distribution** | Git, GitHub Releases, OTA Update Engines, ProGuard / R8 Obfuscation |
-
----
-
-## 🔄 OTA & Remote Updates
-Fahad AI features built-in Over-The-Air (OTA) update verification. The application checks for verified releases directly via:
-- `https://fahadtech8.github.io/fahadtech8/jarvis.json`
+| **Mobile & Android** | Kotlin, Java, Jetpack Compose, Coroutines/Flow, Android SDK, Gradle KTS |
+| **AI & Voice Intelligence** | Gemini Live, Vosk Speech Recognition, Biometric DSP, Acoustic Vector Extraction |
+| **System Automation** | Accessibility Services, Android Daemons, IPC, Notification Listeners |
+| **Web & Full-Stack** | Modern Frontend Architecture, JavaScript, REST APIs, Git & GitHub Actions |
 
 ---
 
 ## 🌐 Connect With Me
-* **GitHub**: [@fahadtech8](https://github.com/fahadtech8)
-* **Organization**: FD Studio / Fahad AI Labs
-* **Location**: India
+* 🌐 **Official Website**: [**fahad.sudox.in**](https://fahad.sudox.in)
+* 💻 **GitHub**: [@fahadtech8](https://github.com/fahadtech8)
+* 🏢 **Organization**: FD Studio / Fahad AI Labs
+* 📍 **Location**: India
 
 ---
 
 <div align="center">
-  <sub>Designed & Maintained by <b>Fahad Ahmad</b> • Official Distribution Channel</sub>
+  <sub>Designed & Developed by <b>Fahad Ahmad</b> • All Rights Reserved</sub>
 </div>
