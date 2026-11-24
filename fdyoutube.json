@@ -1,8 +1,8 @@
 {
-  "version_name": "21.26.364",
+  "version_name": "63",
   "force_update": false,
   "title": "FD YouTube Update Available!",
-  "message": "A new version of FD YouTube is available.\n\nWhat's New in this update:\n• Fixed background playback\n• Clean UI & Ad-free experience\n• Performance & stability boost",
+  "message": "A new version of FD YouTube is available.\n\nWhat's New:\n• Updated to V63\n• Fixed background playback & buffering\n• Clean UI & Ad-free experience\n• Performance improvements",
   "update_url": "https://thefahad.in",
   "btn_update_text": "Update Now",
   "btn_cancel_text": "Later"
