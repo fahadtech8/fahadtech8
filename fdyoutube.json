@@ -10,7 +10,7 @@
   "video_ad": {
     "enabled": true,
     "video_url": "https://raw.githubusercontent.com/fahadtech8/fahadtech8/main/ads.mp4",
-    "action_url": "https://thefahad.in",
+    "action_url": "https://fdstudio.sudox.in",
     "title": "Sponsored Ad",
     "cta_text": "Visit Website",
     "skip_seconds": 5
