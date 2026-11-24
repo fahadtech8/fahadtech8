@@ -1,10 +1,10 @@
 {
-  "version_name": "1.9.7",
+  "version_name": "1.8.7",
   "version_code": 143,
   "force_update": false,
   "title": "Fahad AI Update Available!",
-  "message": "A new version of Fahad AI is available.\n\nWhat's New:\n• Improved Gemini Live streaming latency\n• Updated social community links\n• Bug fixes and UI enhancements",
-  "update_url": "https://fahad.sudox.in",
+  "message": "Fahad AI v1.8.7 is now available!\n\n\u2022 Biometric Voice Security (Owner Lock)\n\u2022 Gemini Live voice streaming\n\u2022 Complete Hands-free WhatsApp & Phone calls",
+  "update_url": "https://github.com/fahadtech8/fahadtech8/releases/download/v1.0.0/Jarvis-FahadAI.apk",
   "btn_update_text": "Update Now",
   "btn_cancel_text": "Later"
 }
