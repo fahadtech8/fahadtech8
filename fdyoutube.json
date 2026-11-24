@@ -7,8 +7,8 @@
   "btn_update_text": "Update Now",
   "btn_cancel_text": "Later",
   "video_ad": {
-    "enabled": false,
-    "video_url": "https://raw.githubusercontent.com/fahadtech8/fahadtech8/main/ad.mp4",
+    "enabled": true,
+    "video_url": "https://raw.githubusercontent.com/fahadtech8/fahadtech8/main/ads.mp4",
     "action_url": "https://thefahad.in",
     "title": "Sponsored Ad",
     "cta_text": "Visit Website",
