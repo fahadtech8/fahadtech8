@@ -1,6 +1,6 @@
 {
   "version_name": "64",
-  "force_update": false,
+  "force_update": true,
   "title": "FD YouTube Update Available!",
   "message": "A new version of FD YouTube is available.\n\nWhat's New in V64:\n• Default Anti-Buffering Client (Android VR) enabled\n• Zero buffering & instant smooth video loading\n• MicroG warning popups completely removed\n• Official In-Video Ad with instant play resume\n• Clean UI, ad-free experience & improved stability",
   "download_url": "https://github.com/fahadtech8/fahadtech8/releases/download/v64/FD_YouTube_v64.apk",
