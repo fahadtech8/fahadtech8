@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fahadtech8.github.io/fahadtech8/sitemap.xml
