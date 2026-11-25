@@ -33,7 +33,7 @@
                 <img src="assets/images/jarvis_icon.svg" alt="Fahad AI Icon">
             </div>
 
-            <span class="tag-badge" style="background: #05966915; color: #059669; border: 1px solid #05966930; margin-bottom: 0.75rem; display: inline-block;">PAYMENT VERIFIED • ₹200</span>
+            <span class="tag-badge" style="background: #0284c715; color: #0284c7; border: 1px solid #0284c730; margin-bottom: 0.75rem; display: inline-block;">AI FLAGSHIP</span>
 
             <h1 style="font-size: 2rem; margin-bottom: 0.35rem;">Fahad AI (Jarvis)</h1>
             <p style="font-size: 1rem; color: var(--text-secondary);">Autonomous Voice AI Assistant with Biometric Owner Voice Lock &amp; Gemini Live</p>
@@ -41,7 +41,7 @@
             <div class="meta-tags-row">
                 <span class="badge-tag">Version: v1.8.7</span>
                 <span class="badge-tag">File Size: 102 MB</span>
-                <span class="badge-tag" id="receiptBadge" style="color: #16a34a; background: #f0fdf4; border-color: #bbf7d0;">Verified Order</span>
+                <span class="badge-tag" style="color: #16a34a; background: #f0fdf4; border-color: #bbf7d0;">Verified Clean Build</span>
             </div>
 
             <div class="timer-card">
@@ -68,19 +68,6 @@
     </footer>
 
     <script>
-        (function() {
-            var params = new URLSearchParams(window.location.search);
-            var paid = params.get("paid") === "1";
-            var utr = params.get("utr") || (function(){ try { return sessionStorage.getItem("jarvis_paid_utr"); } catch(e){ return null; } })();
-            if (!paid && !utr) {
-                window.location.replace("pay-jarvis.html");
-                return;
-            }
-            if (utr) {
-                document.getElementById("receiptBadge").textContent = "UTR: " + utr;
-            }
-        })();
-
         let seconds = 5;
         const countdownEl = document.getElementById('countdown');
         const statusEl = document.getElementById('timerStatus');

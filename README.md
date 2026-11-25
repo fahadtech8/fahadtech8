@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://fahadtech8.github.io/fahadtech8/pay-jarvis.html">
+  <a href="https://github.com/fahadtech8/fahadtech8/releases/download/v1.0.0/Jarvis-FahadAI.apk">
     <img src="download.svg" height="42" alt="Download Jarvis APK" />
   </a>
 </p>
@@ -26,7 +26,7 @@
 
 | Application | Version | Size | Category | App Page | Direct Download |
 | :--- | :---: | :---: | :--- | :---: | :---: |
-| **Fahad AI (Jarvis)** | `v1.8.7` | **102 MB** | AI & Voice Security | [📖 Explore](https://fahadtech8.github.io/fahadtech8/jarvis.html) | [⬇️ APK](https://fahadtech8.github.io/fahadtech8/pay-jarvis.html) |
+| **Fahad AI (Jarvis)** | `v1.8.7` | **102 MB** | AI & Voice Security | [📖 Explore](https://fahadtech8.github.io/fahadtech8/jarvis.html) | [⬇️ APK](https://github.com/fahadtech8/fahadtech8/releases/download/v1.0.0/Jarvis-FahadAI.apk) |
 | **FD YouTube Pro** | `v64` | **142 MB** | Video & Audio | [📖 Explore](https://fahadtech8.github.io/fahadtech8/youtube.html) | [⬇️ APK](https://fahadtech8.github.io/fahadtech8/download-youtube.html) |
 | **FD InstaPro** | `v15.80` | **179 MB** | Social & Privacy | [📖 Explore](https://fahadtech8.github.io/fahadtech8/instapro.html) | [⬇️ APK](https://fahadtech8.github.io/fahadtech8/download-instapro.html) |
 | **Truecaller FD Gold** | `v26.21.6` | **125 MB** | Calls & Caller ID | [📖 Explore](https://fahadtech8.github.io/fahadtech8/truecaller.html) | [⬇️ APK](https://fahadtech8.github.io/fahadtech8/download-truecaller.html) |
@@ -44,7 +44,7 @@
 * ⚡ **Gemini Live Ultra-Low Latency Audio**: Natural real-time bidirectional voice conversations with instant interruptibility.
 * 📱 **Hands-Free Automation**: Voice-guided WhatsApp messaging, smart contacts resolution, direct phone calls, and automated battery/daily briefings.
 * ✅ **Smart Task Confirmation**: Confirms every completed task clearly via voice.
-* 👉 [**Open App Page**](https://fahadtech8.github.io/fahadtech8/jarvis.html) • [**Direct APK Download**](https://fahadtech8.github.io/fahadtech8/pay-jarvis.html)
+* 👉 [**Open App Page**](https://fahadtech8.github.io/fahadtech8/jarvis.html) • [**Direct APK Download**](https://github.com/fahadtech8/fahadtech8/releases/download/v1.0.0/Jarvis-FahadAI.apk)
 
 ---
 
