@@ -27,7 +27,7 @@
 | Application | Version | Size | Category | App Page | Direct Download |
 | :--- | :---: | :---: | :--- | :---: | :---: |
 | **Fahad AI (Jarvis)** | `v1.8.7` | **102 MB** | AI & Voice Security | [📖 Explore](https://fahadtech8.github.io/fahadtech8/jarvis.html) | [⬇️ APK](https://github.com/fahadtech8/fahadtech8/releases/download/v1.0.0/Jarvis-FahadAI.apk) |
-| **FD YouTube Pro** | `v60` | **223 MB** | Video & Audio | [📖 Explore](https://fahadtech8.github.io/fahadtech8/youtube.html) | [⬇️ APK](https://fahadtech8.github.io/fahadtech8/download-youtube.html) |
+| **FD YouTube Pro** | `v64` | **142 MB** | Video & Audio | [📖 Explore](https://fahadtech8.github.io/fahadtech8/youtube.html) | [⬇️ APK](https://fahadtech8.github.io/fahadtech8/download-youtube.html) |
 | **FD InstaPro** | `v15.80` | **179 MB** | Social & Privacy | [📖 Explore](https://fahadtech8.github.io/fahadtech8/instapro.html) | [⬇️ APK](https://fahadtech8.github.io/fahadtech8/download-instapro.html) |
 | **Truecaller FD Gold** | `v26.21.6` | **125 MB** | Calls & Caller ID | [📖 Explore](https://fahadtech8.github.io/fahadtech8/truecaller.html) | [⬇️ APK](https://fahadtech8.github.io/fahadtech8/download-truecaller.html) |
 | **Cinema VIP** | `v3.2.0` | **38 MB** | Movies & Streaming | [📖 Explore](https://fahadtech8.github.io/fahadtech8/cinema.html) | [⬇️ APK](https://fahadtech8.github.io/fahadtech8/download-cinema.html) |
@@ -48,7 +48,7 @@
 
 ---
 
-### ▶️ 2. FD YouTube Pro — `v60 (21.26.364)` (`223 MB`)
+### ▶️ 2. FD YouTube Pro — `v64` (`142 MB`)
 > *High-performance, distraction-free video & music streaming experience built for everyday Android power users.*
 
 * 🚫 **100% Ad-Free Playback**: Eliminates pre-roll, mid-roll, banner, and homepage sponsored ads.
