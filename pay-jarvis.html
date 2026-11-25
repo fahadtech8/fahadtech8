@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#101c35">
+    <title>UPI Checkout (₹200) — Fahad AI (Jarvis) - FD Studio</title>
+    <meta name="description" content="Secure instant UPI QR Checkout for Fahad AI (Jarvis) v1.8.7. Pay ₹200 via GPay, PhonePe, Paytm or BHIM and unlock instant APK download.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/studio-3d.css">
+    <link rel="icon" type="image/png" href="assets/images/brand/fd-studio-logo.png">
+    <style>
+        .upi-checkout-wrap { max-width: 480px; margin: 2rem auto 4rem; }
+        .upi-card { border-radius: 18px; background: #ffffff; color: #0f172a; overflow: hidden; border: 1.5px solid #e2e8f0; box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08); position: relative; }
+        .upi-topbar { background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%); padding: 14px 18px; color: #ffffff; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+        .upi-badge-verified { background: rgba(255,255,255,0.2); color: #ffffff; font-size: 0.72rem; padding: 4px 10px; border-radius: 999px; font-weight: 700; }
+        .upi-body { padding: 20px 18px; text-align: center; }
+        .upi-amount { font-size: 2.35rem; font-weight: 800; color: #0f172a; line-height: 1.1; margin: 4px 0; }
+        .upi-qr-box { padding: 14px; background: #f8fafc; border-radius: 14px; border: 1.5px solid #e2e8f0; margin: 14px 0; }
+        .upi-qr-img-wrap { padding: 10px; background: #ffffff; border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.07); display: inline-block; border: 1px solid #e2e8f0; }
+        .upi-warn { font-size: 0.75rem; border-radius: 10px; background: #fff1f2; border: 1.5px solid #fecdd3; color: #9f1239; padding: 10px 12px; text-align: left; margin-top: 12px; line-height: 1.45; }
+        .upi-copy-bar { background: #f1f5f9; border: 1px solid #e2e8f0; border-radius: 10px; padding: 10px 12px; display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 14px; text-align: left; }
+        .upi-utr-box { background: #f0fdf4; border: 1.5px solid #bbf7d0; border-radius: 12px; padding: 14px; text-align: left; margin-top: 14px; }
+        .upi-utr-input { width: 100%; padding: 10px 12px; border: 1.5px solid #cbd5e1; border-radius: 8px; font-family: var(--font-mono); font-size: 0.95rem; margin: 8px 0 10px; box-sizing: border-box; }
+        .upi-utr-input:focus { outline: none; border-color: #2563eb; }
+        .vt-success-hero { position: relative; display: inline-block; margin: 16px auto 12px; }
+        .vt-pulse-ring { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 76px; height: 76px; border-radius: 50%; background: rgba(16, 185, 129, 0.25); animation: vtPulse 1.8s ease-out infinite; }
+        .vt-success-svg { position: relative; z-index: 2; width: 76px; height: 76px; border-radius: 50%; display: block; stroke-width: 3.5; stroke: #ffffff; margin: 0 auto; box-shadow: inset 0px 0px 0px #10b981, 0 6px 20px rgba(16, 185, 129, 0.35); animation: vt-fill .4s ease-in-out .2s forwards; }
+        .vt-success-circle { stroke-dasharray: 166; stroke-dashoffset: 166; stroke: #10b981; fill: none; animation: vt-stroke 0.5s forwards; }
+        .vt-success-check { stroke-dasharray: 48; stroke-dashoffset: 48; animation: vt-stroke 0.35s 0.4s forwards; }
+        @keyframes vtPulse { 0% { transform: translate(-50%, -50%) scale(0.9); opacity: 0.9; } 100% { transform: translate(-50%, -50%) scale(1.6); opacity: 0; } }
+        @keyframes vt-stroke { 100% { stroke-dashoffset: 0; } }
+        @keyframes vt-fill { 100% { box-shadow: inset 0px 0px 0px 42px #10b981, 0 8px 24px rgba(16, 185, 129, 0.45); } }
+    </style>
+</head>
+<body class="download-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="index.html" class="brand" aria-label="FD Studio home"><img src="assets/images/brand/fd-studio-logo.png" class="brand-logo" width="42" height="42" alt=""><span class="brand-text">FD<span class="brand-light"> Studio</span></span></a>
+            <nav class="nav-menu download-nav" aria-label="Return navigation">
+                <a href="jarvis.html" class="nav-link">&larr; Back to Fahad AI (Jarvis)</a>
+            </nav>
+            <div class="header-actions">
+                <a href="index.html#apps" class="btn btn-outline btn-sm">All Apps</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main" class="container">
+        <div class="upi-checkout-wrap">
+            <div class="upi-card" id="vt_upi_card">
+                <canvas id="vt_confetti_canvas" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 99; display: none;"></canvas>
+
+                <div class="upi-topbar">
+                    <div>
+                        <span style="font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.8px; color: #93c5fd; font-weight: 700; display: block;">Instant UPI QR Checkout</span>
+                        <h1 style="font-size: 1.05rem; color: #ffffff; margin: 0;">Fahad AI (Jarvis) v1.8.7</h1>
+                    </div>
+                    <span class="upi-badge-verified">✓ 100% Verified</span>
+                </div>
+
+                <div class="upi-body" id="checkoutBody">
+                    <div style="border-bottom: 1px dashed #e2e8f0; padding-bottom: 10px;">
+                        <span style="font-size: 0.7rem; text-transform: uppercase; color: #64748b; font-weight: 700;">Payable Amount</span>
+                        <div class="upi-amount">&#8377;200.00</div>
+                        <div style="display: flex; justify-content: center; gap: 6px; flex-wrap: wrap; margin-top: 6px;">
+                            <span id="orderRefBadge" style="font-size: 0.72rem; font-family: var(--font-mono); background: #f1f5f9; color: #475569; border: 1px solid #cbd5e1; padding: 3px 8px; border-radius: 6px;">Ref: ...</span>
+                            <span id="dateTimeBadge" style="font-size: 0.72rem; background: #e0f2fe; color: #0369a1; border: 1px solid #bae6fd; padding: 3px 8px; border-radius: 6px; font-weight: 600;">...</span>
+                        </div>
+                    </div>
+
+                    <div class="upi-qr-box">
+                        <div style="font-size: 0.86rem; font-weight: 700; color: #1e293b; margin-bottom: 10px;">Scan QR Code with Any UPI App</div>
+                        <div class="upi-qr-img-wrap">
+                            <img id="vt_qr_img" src="" alt="UPI QR Code for ₹200" style="width: 220px; height: 220px; display: block; border-radius: 8px;" />
+                        </div>
+
+                        <div class="upi-warn">
+                            <div style="font-weight: 700; margin-bottom: 2px;">⚠️ Single-Use QR (1-Time Payment):</div>
+                            <div>Yeh QR sirf 1 bar payment ke liye hai. Ek baar payment hone ke baad is save QR par dubara payment na karein.</div>
+                        </div>
+
+                        <div style="display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; margin-top: 12px;">
+                            <span style="font-size: 0.7rem; color: #64748b; font-weight: 600;">Supported:</span>
+                            <img src="assets/images/upi/phonepe.png" alt="PhonePe" style="width: 22px; height: 22px; object-fit: contain; border-radius: 4px;" />
+                            <img src="assets/images/upi/gpay.png" alt="Google Pay" style="width: 22px; height: 22px; object-fit: contain; border-radius: 4px;" />
+                            <img src="assets/images/upi/paytm.png" alt="Paytm" style="width: 22px; height: 22px; object-fit: contain; border-radius: 4px;" />
+                            <img src="assets/images/upi/bhim.png" alt="BHIM" style="width: 22px; height: 22px; object-fit: contain; border-radius: 4px;" />
+                        </div>
+
+                        <div style="display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; margin-top: 14px;">
+                            <button type="button" id="vt_download_btn" onclick="vtDownloadQR();" class="btn btn-outline btn-sm" style="font-weight: 700;">
+                                📥 Save QR with Date &amp; Time
+                            </button>
+                            <a id="upiIntentBtn" href="#" class="btn btn-primary btn-sm" style="background: #2563eb; border-color: #2563eb; font-weight: 700;">
+                                ⚡ Open UPI App
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="upi-copy-bar">
+                        <div style="min-width: 0; overflow: hidden;">
+                            <span style="font-size: 0.65rem; text-transform: uppercase; color: #64748b; font-weight: 700; display: block;">UPI ID (Pay Manually)</span>
+                            <span style="font-family: var(--font-mono); color: #0f172a; font-weight: 700; font-size: 0.84rem;">paytm.s17o433@pty</span>
+                        </div>
+                        <button type="button" onclick="copyUpiId(this)" class="btn btn-primary btn-sm" style="background: #0f172a; border-color: #0f172a; padding: 6px 12px; font-size: 0.75rem;">Copy</button>
+                    </div>
+
+                    <div class="upi-utr-box">
+                        <strong style="font-size: 0.88rem; color: #065f46; display: block;">✅ Already Paid ₹200? Enter 12-Digit UTR / Ref No:</strong>
+                        <span style="font-size: 0.75rem; color: #047857;">Payment karne ke baad apna 12-digit UTR number daalein aur direct download page par jayein.</span>
+                        <input type="text" id="utrInput" class="upi-utr-input" maxlength="12" inputmode="numeric" placeholder="e.g. 432918475612" />
+                        <p id="utrError" style="color: #dc2626; font-size: 0.78rem; font-weight: 600; margin: 0 0 8px; display: none;"></p>
+                        <button type="button" onclick="verifyAndRedirect()" class="btn btn-primary" style="width: 100%; background: #059669; border-color: #059669; font-weight: 700; padding: 12px;">
+                            Verify Payment &amp; Download APK &rarr;
+                        </button>
+                    </div>
+                </div>
+
+                <div style="background: #f8fafc; border-top: 1px solid #e2e8f0; padding: 10px 14px; font-size: 0.72rem; color: #64748b; text-align: center;">
+                    🔒 Direct Bank Transfer • Instant Unlock • Jarvis-FahadAI.apk (102 MB)
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container text-center" style="font-size: 0.88rem; color: var(--text-muted);">
+            <p>© 2026 <strong>FD Studio</strong> by <a href="https://fahad.sudox.in" target="_blank" rel="noopener noreferrer" style="color: #0f172a; font-weight: 600;">Fahad Ahmad</a>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        var upiId = "paytm.s17o433@pty";
+        var payeeName = "Fahad Ahmad";
+        var amount = "200.00";
+        var now = new Date();
+        var pad = function(n) { return n < 10 ? "0" + n : "" + n; };
+        var orderId = "FA" + String(now.getFullYear()).slice(-2) + pad(now.getMonth() + 1) + pad(now.getDate()) + pad(now.getHours()) + pad(now.getMinutes()) + pad(now.getSeconds()) + Math.floor(100 + Math.random() * 900);
+        var generatedDateTime = now.toLocaleString("en-IN", { day: "2-digit", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit", hour12: true });
+
+        var upiUrl = "upi://pay?pa=" + encodeURIComponent(upiId) + "&pn=" + encodeURIComponent(payeeName) + "&am=" + amount + "&cu=INR&tr=" + encodeURIComponent(orderId) + "&tn=" + encodeURIComponent("Fahad AI Jarvis " + orderId);
+        var qrImageUrl = "https://api.qrserver.com/v1/create-qr-code/?size=320x320&margin=10&data=" + encodeURIComponent(upiUrl);
+
+        document.getElementById("orderRefBadge").textContent = "Ref: " + orderId;
+        document.getElementById("dateTimeBadge").textContent = generatedDateTime;
+        document.getElementById("vt_qr_img").src = qrImageUrl;
+        document.getElementById("upiIntentBtn").href = upiUrl;
+
+        function copyUpiId(btn) {
+            navigator.clipboard.writeText(upiId);
+            btn.textContent = "Copied!";
+            setTimeout(function() { btn.textContent = "Copy"; }, 1500);
+        }
+
+        function vtDownloadQR() {
+            var btn = document.getElementById("vt_download_btn");
+            var orig = btn.innerHTML;
+            btn.innerHTML = "Generating Slip...";
+            btn.disabled = true;
+
+            var img = new Image();
+            img.crossOrigin = "anonymous";
+            img.onload = function() {
+                var canvas = document.createElement("canvas");
+                var width = 480, height = 650;
+                canvas.width = width;
+                canvas.height = height;
+                var ctx = canvas.getContext("2d");
+
+                ctx.fillStyle = "#ffffff";
+                ctx.fillRect(0, 0, width, height);
+                ctx.strokeStyle = "#cbd5e1";
+                ctx.lineWidth = 3;
+                ctx.strokeRect(2, 2, width - 4, height - 4);
+
+                var grad = ctx.createLinearGradient(0, 0, width, 0);
+                grad.addColorStop(0, "#1e3a8a");
+                grad.addColorStop(1, "#2563eb");
+                ctx.fillStyle = grad;
+                ctx.fillRect(0, 0, width, 75);
+
+                ctx.fillStyle = "#ffffff";
+                ctx.font = "bold 18px Arial, sans-serif";
+                ctx.textAlign = "center";
+                ctx.fillText("FAHAD AI (JARVIS) — FD STUDIO", width / 2, 32);
+                ctx.font = "600 12px Arial, sans-serif";
+                ctx.fillStyle = "#93c5fd";
+                ctx.fillText("SECURE UPI PAYMENT • " + payeeName, width / 2, 54);
+
+                ctx.fillStyle = "#f8fafc";
+                ctx.fillRect(16, 88, width - 32, 48);
+                ctx.strokeStyle = "#e2e8f0";
+                ctx.lineWidth = 1;
+                ctx.strokeRect(16, 88, width - 32, 48);
+
+                ctx.fillStyle = "#475569";
+                ctx.font = "11px Arial, sans-serif";
+                ctx.textAlign = "left";
+                ctx.fillText("DATE & TIME:", 26, 107);
+                ctx.fillStyle = "#0f172a";
+                ctx.font = "bold 11px Arial, sans-serif";
+                ctx.fillText(generatedDateTime, 125, 107);
+
+                ctx.fillStyle = "#475569";
+                ctx.font = "11px Arial, sans-serif";
+                ctx.fillText("ORDER REF:", 26, 125);
+                ctx.fillStyle = "#2563eb";
+                ctx.font = "bold 11px monospace";
+                ctx.fillText(orderId, 125, 125);
+
+                ctx.fillStyle = "#ecfdf5";
+                ctx.fillRect(16, 146, width - 32, 52);
+                ctx.strokeStyle = "#10b981";
+                ctx.strokeRect(16, 146, width - 32, 52);
+                ctx.fillStyle = "#065f46";
+                ctx.font = "bold 24px Arial, sans-serif";
+                ctx.textAlign = "center";
+                ctx.fillText("₹" + amount + " INR", width / 2, 180);
+
+                ctx.drawImage(img, (width - 290) / 2, 215, 290, 290);
+
+                ctx.fillStyle = "#475569";
+                ctx.font = "bold 13px Arial, sans-serif";
+                ctx.fillText("UPI ID: " + upiId, width / 2, 535);
+                ctx.fillStyle = "#9f1239";
+                ctx.font = "11px Arial, sans-serif";
+                ctx.fillText("Single-Use QR • Scan & Pay ₹200 using any UPI App", width / 2, 565);
+
+                var link = document.createElement("a");
+                link.download = "FahadAI-QR-" + orderId + ".png";
+                link.href = canvas.toDataURL("image/png");
+                link.click();
+
+                btn.innerHTML = orig;
+                btn.disabled = false;
+            };
+            img.onerror = function() {
+                window.open(qrImageUrl, "_blank");
+                btn.innerHTML = orig;
+                btn.disabled = false;
+            };
+            img.src = qrImageUrl;
+        }
+
+        function verifyAndRedirect() {
+            var utr = document.getElementById("utrInput").value.trim();
+            var errEl = document.getElementById("utrError");
+            if (!/^\d{12}$/.test(utr)) {
+                errEl.textContent = "Please enter a valid 12-digit numeric UTR / Transaction Reference number.";
+                errEl.style.display = "block";
+                return;
+            }
+            errEl.style.display = "none";
+
+            try {
+                sessionStorage.setItem("jarvis_paid_order", orderId);
+                sessionStorage.setItem("jarvis_paid_utr", utr);
+            } catch (e) {}
+
+            var targetUrl = "download-jarvis.html?paid=1&order=" + encodeURIComponent(orderId) + "&utr=" + encodeURIComponent(utr);
+            document.getElementById("checkoutBody").innerHTML =
+                '<div class="vt-success-hero"><div class="vt-pulse-ring"></div><svg class="vt-success-svg" viewBox="0 0 52 52"><circle class="vt-success-circle" cx="26" cy="26" r="25" fill="none"/><path class="vt-success-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg></div>' +
+                '<h2 style="color:#064e3b; font-size:1.4rem; margin:0 0 6px;">Payment Verified!</h2>' +
+                '<p style="color:#475569; font-size:0.9rem; margin-bottom:14px;">UTR <code>' + utr + '</code> accepted. Redirecting to direct APK download...</p>' +
+                '<a href="' + targetUrl + '" class="btn btn-primary" style="background:#059669; border-color:#059669;">Continue to Download &rarr;</a>';
+
+            setTimeout(function() {
+                window.location.href = targetUrl;
+            }, 1500);
+        }
+    </script>
+</body>
+</html>
