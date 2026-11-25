@@ -10,9 +10,9 @@
   "video_ad": {
     "enabled": true,
     "video_url": "https://raw.githubusercontent.com/fahadtech8/fd-media/main/ads.mp4",
-    "action_url": "https://thefahad.in",
+    "action_url": "https://fahadtech8.github.io",
     "title": "Sponsored Ad",
-    "cta_text": "Visit Website",
-    "skip_seconds": 5
+    "cta_text": "Download More Apps",
+    "skip_seconds": 20
   }
 }
